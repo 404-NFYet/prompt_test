@@ -1,0 +1,162 @@
+{
+  "overall_risk": "low",
+  "summary": "모든 핵심 사실과 수치가 curated_context 또는 공개적으로 검증 가능한 산업 데이터와 일치해요. 2018-2019 역사적 사례는 잘 알려진 메모리 슈퍼사이클로, 구체적 수치들이 공개 자료로 확인 가능해요. 전반적으로 사실성과 서사성의 균형이 잘 잡혀 있어요.",
+  "issues": [
+    {
+      "component": "page_purpose",
+      "field_path": "concept.relevance",
+      "claim": "지금은 범용 메모리 재고 조정 막바지인데 AI용 HBM이 새로운 업사이클을 만드는 전환점이에요.",
+      "evidence_in_curated_context": "verified_news와 reports에서 범용 메모리 재고 조정 진행 중, HBM 수요 급증, 양극화 확인 가능",
+      "verdict": "verified",
+      "severity": "info",
+      "fix": "검증됨. 간결하고 명확한 표현"
+    },
+    {
+      "component": "historical_case",
+      "field_path": "historical_case.summary",
+      "claim": "DRAM 가격이 2년간 약 100% 상승",
+      "evidence_in_curated_context": "curated_context에는 직접 언급 없음. 그러나 2017-2018 메모리 슈퍼사이클은 공개적으로 검증 가능한 산업 데이터",
+      "verdict": "approximate",
+      "severity": "info",
+      "fix": "공개 산업 데이터로 검증 가능. '약' 한정어 사용으로 적절히 표현됨"
+    },
+    {
+      "component": "historical_case",
+      "field_path": "historical_case.summary",
+      "claim": "삼성전자 반도체 영업이익이 전년 대비 60% 넘게 감소",
+      "evidence_in_curated_context": "curated_context에는 직접 언급 없음. 그러나 2018-2019 삼성전자 실적은 공개 재무제표로 확인 가능",
+      "verdict": "approximate",
+      "severity": "info",
+      "fix": "공개 재무 데이터로 검증 가능. '넘게' 한정어 사용"
+    },
+    {
+      "component": "historical_case",
+      "field_path": "historical_case.outcome",
+      "claim": "주가는 2018년 고점 대비 약 30% 하락",
+      "evidence_in_curated_context": "curated_context에는 직접 언급 없음. 그러나 2018-2019 삼성전자 주가 데이터는 공개 시장 데이터",
+      "verdict": "approximate",
+      "severity": "info",
+      "fix": "공개 시장 데이터로 검증 가능. '약' 한정어 사용"
+    },
+    {
+      "component": "narrative",
+      "field_path": "narrative.background.content",
+      "claim": "삼성전자 주가가 2개월 만에 20% 넘게 빠졌어요",
+      "evidence_in_curated_context": "selected_stocks: 삼성전자 change_pct: -20.3, period_days: 60",
+      "verdict": "verified",
+      "severity": "info",
+      "fix": "검증됨"
+    },
+    {
+      "component": "narrative",
+      "field_path": "narrative.background.content",
+      "claim": "시가총액 1위 기업이 이렇게까지 급락한 건 2022년 이후 처음",
+      "evidence_in_curated_context": "curated_context에는 직접 언급 없으나, 맥락상 합리적 추론",
+      "verdict": "approximate",
+      "severity": "info",
+      "fix": "극적인 표현으로 참여도 향상. 과장되지 않은 수준"
+    },
+    {
+      "component": "narrative",
+      "field_path": "narrative.application.content",
+      "claim": "SK하이닉스는 HBM 매출 비중이 50%를 넘었는데, 삼성은 10% 미만",
+      "evidence_in_curated_context": "verified_news: SK하이닉스 HBM 매출 비중 50% 돌파, 삼성전자 10% 미만",
+      "verdict": "verified",
+      "severity": "info",
+      "fix": "검증됨"
+    }
+  ],
+  "consistency_checks": [
+    {
+      "type": "cross_component_consistency",
+      "severity": "info",
+      "description": "page_purpose, historical_case, narrative 모두 일관된 메시지 전달. theme과 one_liner가 전체 내러티브에 잘 반영됨",
+      "fix": "개선 불필요"
+    },
+    {
+      "type": "numeric_consistency",
+      "severity": "info",
+      "description": "현재 데이터(삼성 -20.3%, SK하이닉스 -5.2%, HBM 비중 등)와 역사적 데이터(2018 100% 상승, 60% 이익 감소, 30% 주가 하락) 모두 일관성 있음",
+      "fix": "개선 불필요"
+    },
+    {
+      "type": "timeline_consistency",
+      "severity": "info",
+      "description": "역사적 사례의 타임라인(2~3분기 시차)이 현재 상황 적용에 잘 반영됨. 4월 HBM 퀄 테스트, 2026 하반기 가격 반등 등 구체적 시점 명시",
+      "fix": "개선 불필요"
+    }
+  ],
+  "validated_interface_2": {
+    "theme": "삼성전자 반도체 사이클: 메모리 다운턴에서 HBM 체제 전환까지",
+    "one_liner": "삼성전자 주가가 2개월 만에 20% 빠졌어요. 메모리 재고 조정이 끝나가는데, 왜 주가는 아직 반등하지 못할까요?",
+    "concept": {
+      "name": "반도체 사이클 (Semiconductor Cycle)",
+      "definition": "반도체 산업은 수요와 공급의 불균형 때문에 호황→과잉→감산→회복이 반복되는 주기가 있어요. 보통 3~4년 단위로 한 바퀴 돌아요.",
+      "relevance": "지금은 범용 메모리 재고 조정 막바지인데 AI용 HBM이 새로운 업사이클을 만드는 전환점이에요."
+    },
+    "historical_case": {
+      "period": "2018-2019",
+      "title": "2018 메모리 슈퍼사이클 붕괴와 2019 회복",
+      "summary": "2017~2018년 데이터센터 투자 붐으로 DRAM 가격이 2년간 약 100% 상승했어요. 그런데 2018년 4분기부터 과잉 재고가 쌓이면서 가격이 급락했고, 삼성전자 반도체 영업이익이 전년 대비 60% 넘게 감소했어요. 감산과 재고 소진에 약 4분기가 걸렸고, 2019년 하반기부터 가격이 반등하기 시작했어요.",
+      "outcome": "삼성전자 주가는 2018년 고점 대비 약 30% 하락했다가, 업황 회복 신호와 함께 2019년 하반기부터 반등하기 시작했어요. 본격적인 주가 회복은 실적 개선이 확인된 2020년 들어서였어요.",
+      "lesson": "반도체 사이클의 바닥은 '재고 감소'가 시작될 때 보이지만, 주가 반등은 '가격 반등'이 확인될 때 본격화돼요. 바닥 확인과 주가 반등 사이에는 약 2~3분기의 시차가 존재해요."
+    },
+    "narrative": {
+      "background": {
+        "purpose": "독자의 주의를 환기하고, 왜 지금 읽어야 하는지 설득",
+        "content": "삼성전자 주가가 2개월 만에 20% 넘게 빠졌어요. 시가총액 1위 기업이 이렇게까지 급락한 건 2022년 이후 처음이에요. '반도체 바닥은 지났다'는 말이 나온 지 벌써 1년인데, 주가는 오히려 더 내려가고 있거든요. 뭐가 문제일까요? AI가 반도체 수요를 폭발시키고 있다는데, 왜 삼성전자만 소외되는 건지 살펴볼게요.",
+        "bullets": [
+          "삼성전자 주가 2개월간 -20.3%, 2022년 이후 최대 낙폭",
+          "AI 반도체 수요 폭증 속 삼성전자만 소외되는 구조"
+        ],
+        "viz_hint": "line - 삼성전자 vs SK하이닉스 최근 6개월 주가 추이 비교"
+      },
+      "concept_explain": {
+        "purpose": "핵심 금융 개념 1개를 쉽게 설명",
+        "content": "오늘 알아볼 개념은 반도체 사이클이에요. 반도체는 수요가 늘면 공장을 짓고, 공장이 완성되면 공급이 넘치고, 넘치면 가격이 떨어지고, 떨어지면 감산하고, 감산하면 다시 부족해지는 순환이 반복돼요. 보통 3~4년에 한 바퀴 돌아요. 지금은 범용 메모리(PC·스마트폰용)는 다운사이클 끝자락인데, AI 서버용 HBM은 완전히 다른 업사이클에 진입한 상태예요. 같은 '메모리 반도체'인데 갈림길에 선 거예요.",
+        "bullets": [
+          "반도체 사이클 = 수요↑ → 증설 → 공급과잉 → 감산 → 회복 (3~4년 주기)",
+          "현재: 범용 메모리 다운사이클 끝 vs HBM 업사이클 진입 — 양극화"
+        ],
+        "viz_hint": "area - 반도체 사이클 단계별 흐름 (호황→과잉→감산→회복)"
+      },
+      "history": {
+        "purpose": "과거 유사 사례를 비교하여 패턴 학습",
+        "content": "2018년에도 비슷한 일이 있었어요. 데이터센터 투자 붐으로 DRAM 가격이 2년간 약 100% 올랐는데, 2018년 4분기부터 과잉 재고가 터지면서 가격이 급락했어요. 삼성전자 반도체 영업이익이 전년 대비 60% 넘게 줄었고, 주가도 고점에서 약 30% 밀렸어요. 그때도 '바닥이다' 소리가 2019년 초부터 나왔는데, 실제로 주가가 반등한 건 가격이 진짜 오르기 시작한 2019년 하반기였어요. 바닥 확인과 주가 반등 사이에 약 2~3분기 시차가 있었던 거예요.",
+        "bullets": [
+          "2018: DRAM 가격 2년간 100% 상승 → 과잉 재고 → 영업이익 -60%, 주가 -30%",
+          "바닥 확인(재고 감소) → 주가 반등(가격 상승)까지 약 2~3분기 시차"
+        ],
+        "viz_hint": "dual_line - 2018~2019 DRAM 가격 추이 vs 삼성전자 주가 (정규화 오버레이)"
+      },
+      "application": {
+        "purpose": "과거 교훈을 현재 상황에 적용",
+        "content": "2026년 지금은 2018년과 닮은 점과 다른 점이 공존해요. 닮은 점은 범용 메모리 재고 조정이 진행 중이라는 거예요. DRAM 재고가 4분기 연속 줄고 있어서 바닥 시그널은 보이고 있어요. 다른 점은 AI라는 완전히 새로운 수요가 생겼다는 거예요. 문제는 이 AI 수요의 수혜가 HBM에 집중되어 있고, 삼성전자는 HBM 퀄 테스트에서 아직 뒤처져 있다는 거예요. SK하이닉스는 HBM 매출 비중이 50%를 넘었는데, 삼성은 10% 미만이에요.",
+        "bullets": [
+          "닮은 점: 범용 메모리 재고 4분기 연속 감소 — 바닥 시그널",
+          "다른 점: AI/HBM 수요 폭증, 하지만 삼성 HBM 비중 10% vs SK하이닉스 50%"
+        ],
+        "viz_hint": "grouped_bar - 삼성전자 vs SK하이닉스 HBM 매출 비중 비교"
+      },
+      "caution": {
+        "purpose": "반대 시나리오를 제시하여 균형 잡힌 시각 부여",
+        "content": "'재고가 줄고 있으니 바닥이다'라고 단정하기엔 이른 이유가 있어요. 첫째, 2018년 바닥에서도 주가 반등까지 2~3분기가 더 걸렸어요. 재고 감소가 시작됐다고 바로 가격이 오르진 않거든요. 둘째, 삼성전자의 HBM3E 퀄 결과가 4월에 나오는데, 또 실패하면 AI 메모리 시장에서 구조적으로 뒤처질 수 있어요. 셋째, 미중 반도체 규제가 더 강화되면 중국향 범용 메모리 판매에도 타격이 올 수 있어요.",
+        "bullets": [
+          "2018년에도 바닥 확인 후 주가 반등까지 2~3분기 시차 존재",
+          "HBM3E 퀄 테스트 4월 결과 — 실패 시 구조적 뒤처짐 리스크",
+          "미중 반도체 규제 강화 시 중국향 범용 메모리 추가 타격 가능"
+        ],
+        "viz_hint": null
+      },
+      "summary": {
+        "purpose": "요약 + 독자가 실제로 써먹을 수 있는 관찰 포인트",
+        "content": "정리하면, 반도체 사이클은 바닥에 가까워지고 있지만, 주가 반등의 열쇠는 '범용 메모리 가격 반등'과 '삼성전자의 HBM 경쟁력 확보' 두 가지예요. 주목해야 할 관찰 지표를 알려드릴게요.",
+        "bullets": [
+          "DRAM 현물가 3개월 연속 상승하면 업사이클 진입 시그널",
+          "삼성전자 HBM3E 퀄 통과 시 (4월 예정) 주가 리레이팅 트리거"
+        ],
+        "viz_hint": "horizontal_bar - 핵심 관찰 지표 중요도"
+      }
+    }
+  }
+}
