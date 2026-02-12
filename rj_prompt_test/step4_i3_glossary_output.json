@@ -1,0 +1,51 @@
+{
+  "page_glossaries": [
+    {
+      "step": 1,
+      "glossary": [
+        {
+          "term": "환 헤지 (Exchange Hedge)",
+          "definition": "환율 변동 위험을 없애기 위해 미리 환율을 고정하는 계약을 맺는 거예요. 수출 기업들은 환율이 급변할 때 손실을 막으려고 이걸 해요.",
+          "domain": "금융"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "glossary": []
+    },
+    {
+      "step": 3,
+      "glossary": [
+        {
+          "term": "BOJ (Bank of Japan)",
+          "definition": "일본의 중앙은행인 '일본은행'이에요. 한국의 한국은행, 미국의 연준(Fed)과 같은 역할을 해요.",
+          "domain": "경제"
+        },
+        {
+          "term": "패닉 셀링 (Panic Selling)",
+          "definition": "시장에 공포가 퍼져 너도나도 가격을 따지지 않고 무조건 팔아치우는 투매 현상을 말해요.",
+          "domain": "주식"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "glossary": []
+    },
+    {
+      "step": 5,
+      "glossary": [
+        {
+          "term": "전염 효과 (Contagion)",
+          "definition": "한 나라의 경제 위기가 다른 나라로 병처럼 번지는 현상이에요. 일본 발 충격이 한국 등 신흥국 전체로 퍼지는 걸 말해요.",
+          "domain": "경제"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "glossary": []
+    }
+  ]
+}
