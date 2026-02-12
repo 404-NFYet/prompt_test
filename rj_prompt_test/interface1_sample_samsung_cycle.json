@@ -1,0 +1,73 @@
+{
+  "topic": "삼성전자 반도체 사이클 — 메모리 재고 조정과 HBM 체제 전환",
+  "interface_1_curated_context": {
+    "date": "2026-02-11",
+    "theme": "삼성전자 반도체 사이클: 메모리 다운턴에서 HBM 체제 전환까지",
+    "one_liner": "삼성전자 주가가 2개월 만에 20% 빠졌어요. 메모리 재고 조정이 끝나가는데, 왜 주가는 아직 반등하지 못할까요?",
+    "selected_stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "momentum": "하락",
+        "change_pct": -20.3,
+        "period_days": 60
+      },
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "momentum": "횡보",
+        "change_pct": -5.2,
+        "period_days": 60
+      }
+    ],
+    "verified_news": [
+      {
+        "title": "삼성전자, HBM3E 엔비디아 퀄테스트 재도전…4월 결과 주목",
+        "url": "https://www.hankyung.com/article/202602100001",
+        "source": "한국경제",
+        "summary": "삼성전자가 엔비디아 HBM3E 품질 테스트에 재도전하며, 4월 결과 발표가 주가 반등의 분수령이 될 전망이에요.",
+        "published_date": "2026-02-10"
+      },
+      {
+        "title": "DRAM 재고 4분기 연속 감소…업황 바닥 시그널",
+        "url": "https://www.sedaily.com/article/202602090023",
+        "source": "서울경제",
+        "summary": "글로벌 DRAM 재고가 4분기 연속 줄어들며 업황 바닥론이 힘을 얻고 있어요. 다만 가격 반등 시점은 하반기로 예상돼요.",
+        "published_date": "2026-02-09"
+      },
+      {
+        "title": "SK하이닉스, HBM 매출 비중 50% 돌파…삼성과 격차 확대",
+        "url": "https://www.mk.co.kr/article/202602080045",
+        "source": "매일경제",
+        "summary": "SK하이닉스의 HBM 매출 비중이 전체의 50%를 넘어섰어요. 삼성전자는 아직 10% 미만으로, 양사 간 격차가 벌어지고 있어요.",
+        "published_date": "2026-02-08"
+      },
+      {
+        "title": "AI 서버 수요 폭증에도 범용 메모리 가격은 하락세",
+        "url": "https://www.etnews.com/article/202602070012",
+        "source": "전자신문",
+        "summary": "AI 서버용 고부가 메모리(HBM) 수요는 급증하지만, PC·모바일용 범용 DRAM/NAND 가격은 여전히 하락 중이에요.",
+        "published_date": "2026-02-07"
+      }
+    ],
+    "reports": [
+      {
+        "title": "반도체 산업 2026 하반기 전망: HBM이 이끄는 양극화",
+        "source": "삼성증권",
+        "summary": "범용 메모리는 상반기까지 약세, HBM/AI 메모리는 구조적 성장. 삼성전자의 HBM 경쟁력 확보 여부가 주가 리레이팅의 핵심 변수.",
+        "date": "2026-02-10"
+      },
+      {
+        "title": "삼성전자 목표주가 하향 — 범용 DRAM 가격 하락 반영",
+        "source": "미래에셋증권",
+        "summary": "범용 DRAM ASP 하락으로 2026 상반기 영업이익 추정치를 15% 하향. 다만 HBM3E 퀄 통과 시 하반기 턴어라운드 가능.",
+        "date": "2026-02-07"
+      }
+    ],
+    "concept": {
+      "name": "반도체 사이클 (Semiconductor Cycle)",
+      "definition": "반도체 산업은 수요와 공급의 불균형 때문에 호황→과잉→감산→회복이 반복되는 주기가 있어요. 보통 3~4년 단위로 한 바퀴 돌아요.",
+      "relevance": "지금은 범용 메모리 재고 조정(다운사이클) 막바지인데, AI용 HBM 수요가 새로운 업사이클을 만들고 있어요. 범용 vs 고부가 메모리의 양극화가 핵심이에요."
+    }
+  }
+}
