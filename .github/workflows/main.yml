@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
- notify:
+  notify:
     runs-on: ubuntu-latest
 
     steps:
